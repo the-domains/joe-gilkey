@@ -1,14 +1,26 @@
-layout_spectrum: 0.9567913946229964
-typography_spectrum: 0.9612167824525386
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  brandStrength: 0.9184385936241597
-  lightness: 0.4944837032817304
   saturation: 0.6607000625226647
+  brandStrength: 0.9184385936241597
   rhythmicContrast: 0.3822854880709201
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#3E454C'
+    - '#2185C5'
+    - '#7ECEFD'
+    - '#FFF6E5'
+    - '#FF7F66'
+  lightness: 0.4944837032817304
+typography_spectrum: 0.3216971
+layout_spectrum: 0.5418904
 name: Joe Gilkey
